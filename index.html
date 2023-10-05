@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div class="container">
+        <h1>Tic-Tac-Toe</h1>
+        <h3 class="player-turn-header" hidden></h1>
+        <div class="game-form">
+            <form id="player-name-form">
+                <div class="player-input">
+                    <label for="player-one">Player 1 (X): </label>
+                    <input type="text" id="player-one" name="player1" required>
+                </div>
+                <div class="player-input">
+                    <label for="player-two">Player 2 (O): </label>
+                    <input type="text" id="player-two" name="player2" required>
+                </div>
+                    <button type="submit" id="submit-player-name-btn">Start Game</button>
+            </form>
+        </div>
+        
+        <div class="game-board">
+            <div class="row">
+                <div class="cell" data-cell-index="0"></div>
+                <div class="cell" data-cell-index="1"></div>
+                <div class="cell" data-cell-index="2"></div>
+            </div>
+            <div class="row">
+                <div class="cell" data-cell-index="3"></div>
+                <div class="cell" data-cell-index="4"></div>
+                <div class="cell" data-cell-index="5"></div>
+            </div>
+            <div class="row">
+                <div class="cell" data-cell-index="6"></div>
+                <div class="cell" data-cell-index="7"></div>
+                <div class="cell" data-cell-index="8"></div>
+            </div>
+        </div>
+        <p class="winner-paragraph" hidden>The Winner</p>
+        <button class="restart-button" hidden>Start Again</button>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
