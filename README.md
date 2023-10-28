@@ -1,16 +1,24 @@
 # Odin-Project-Tic-Tac-Toe
-A Tic Tac Toe Game From Odin Project
+A Fun Game of Tic Tac Toe from The Odin Project
 
-The Game Applicaton starts with users filling the two players name, it is required and game can't start without it.
+# Overview
+Welcome to my Tic Tac Toe game! This interactive game offers a great gaming experience for two players.
 
-The game begins with Player1(X) choosing the game cell to place his symbol and then the turn will keep switching into the next player until the Game result is determined.
+# How to Play
+**Player Names** : To start the game, both players need to enter their names. This step is mandatory, and the game won't begin without it.
 
-The player can't choose a cell that already has a symbol placed on it , an alert will appear to notify the player.
+**Gameplay** : Player 1 (X) takes the first turn by selecting an empty cell to place their symbol. The turn alternates between players until the game's outcome is decided.
 
-The Win will be determined according to the three symbols placed in row,column,or diagnol.
+**Cell Selection** : Players can't choose a cell that already has a symbol. If you attempt to do so, an alert will prompt you to make a valid selection again.
 
-Tie will be determined if the game cells are full and a win cannot be determined.
+**Win Conditions**: The winner is determined when three of their symbols are placed in a row, column, or diagonal.
 
-The game can be started again once a WIN or TIE is determined with the same two players name.
+**Tie Game** : If all cells are filled, and no player has won, the game ends in a tie.
 
+**Restart** : After a win or tie, you can easily restart the game with the same player names for another round of fun.
+
+## Try it Out
+Visit the live version of my game: [Play Tic Tac Toe](https://bilalftaieh.github.io/Odin-Project-Tic-Tac-Toe/)
+
+Enjoy your time playing this classic game!
 
