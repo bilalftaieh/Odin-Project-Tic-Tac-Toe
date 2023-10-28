@@ -17,7 +17,7 @@ Welcome to my Tic Tac Toe game! This interactive game offers a great gaming expe
 
 **Restart** : After a win or tie, you can easily restart the game with the same player names for another round of fun.
 
-## Try it Out
+# Try it Out
 Visit the live version of my game: [Play Tic Tac Toe](https://bilalftaieh.github.io/Odin-Project-Tic-Tac-Toe/)
 
 Enjoy your time playing this classic game!
